@@ -1,0 +1,25 @@
+# Credentials & tokens — NEVER commit these
+.env
+.etsy_token.json
+
+# Product data — private business data
+*.csv
+!requirements.txt
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
